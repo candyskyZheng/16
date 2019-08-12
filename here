@@ -34,7 +34,7 @@ for btc_dict in btc_data:
 
 
 line_chart = pygal.Line(x_label_rotation=20, show_minor_x_labels=False) 
-# x轴上的标签旋转20度入
+# x轴上的标签旋转20度
 line_chart.title = '收盘价（￥）'
 line_chart.x_labels = dates
 N = 20
@@ -44,7 +44,7 @@ line_chart.render_to_file('收盘价折线图（￥）.svg')
 
 
 line_chart = pygal.Line(x_label_rotation=20, show_minor_x_labels=False) 
-# x轴上的标签旋转20度入
+# x轴上的标签旋转20度
 line_chart.title = '收盘价对数变换（￥）'
 line_chart.x_labels = dates
 N = 20
